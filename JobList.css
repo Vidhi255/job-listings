@@ -1,0 +1,46 @@
+.job-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    background: #f2e2db;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px 10px;
+    transition: background 0.3s;
+  }
+  
+  .job-item:hover {
+    background: #dad1d1;
+  }
+  
+  .job-item h2 {
+    margin: 0 0 5px;
+  }
+  
+  .job-item p {
+    margin: 0 0 5px;
+  }
+  
+  .job-item a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .job-item a:hover {
+    text-decoration: underline;
+  }
